@@ -18,4 +18,4 @@ jobs:
       - bash: echo $(global_variable)
       - bash: echo $(job_variable1)
       - bash: echo $JOB_VARIABLE1 # variables are available in the script environment too
-
+      - bash: env
